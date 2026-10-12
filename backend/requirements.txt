@@ -1,7 +1,0 @@
-anthropic>=1.13,<2
-fastapi>=0.115
-uvicorn[standard]>=0.30
-psycopg[binary,pool]>=3.2
-sqlglot>=30.0
-pydantic>=2.7
-python-dotenv>=1.0

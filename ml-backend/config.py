@@ -34,9 +34,9 @@ MAX_QUERY_COST = float(_env("MAX_QUERY_COST", "1000000"))
 
 # --- LLM: one model per stage -------------------------------------------------
 MODEL_ROUTE = _env("MODEL_ROUTE", "claude-haiku-5-5")
-MODEL_VALIDATE = _env("MODEL_VALIDATE", "claude-sonnet-5.5")
-MODEL_SQL = _env("MODEL_SQL", "claude-sonnet-5.5")
-MODEL_COMPOSE = _env("MODEL_COMPOSE", "claude-sonnet-5.5")
+MODEL_VALIDATE = _env("MODEL_VALIDATE", "claude-sonnet-5-51")
+MODEL_SQL = _env("MODEL_SQL", "claude-sonnet-5-5")
+MODEL_COMPOSE = _env("MODEL_COMPOSE", "claude-sonnet-5-5")
 
 # Effort per stage: low | medium | high | xhigh | max
 EFFORT_ROUTE = _env("EFFORT_ROUTE", "low")
